@@ -65,11 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
         title: Text(widget.title),
       ),
       body: ListView(
-        // itemBuilder: return ListBody(
-        //   child: Column(
-            // mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              
               const Text(
                 'You have pushed the button this many times:',
                 textAlign: TextAlign.center,
@@ -79,7 +75,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [Container(
                   width: 250.0,
                   height: 30.0,
-                  
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
                       primary: Colors.red,
@@ -91,7 +86,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       textAlign: TextAlign.center,
                       style: TextStyle(color: Color.fromARGB(255, 180, 19, 255))
                     ),
-
                   ),
                 ),
               ]),
@@ -144,10 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
 
               SizedBox(height: 30,)
-              
             ],
-          // )
-        // ),
       ),
       floatingActionButton: FloatingActionButton(
         splashColor: Colors.purple,
