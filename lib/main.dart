@@ -91,7 +91,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ]),
               Text(
                 '$_counter',
-                // style: Theme.of(context).textTheme.headline1,
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 70,
